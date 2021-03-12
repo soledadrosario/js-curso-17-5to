@@ -11,11 +11,11 @@ const ordenaBurbuja = (lista) => {
 
     for (indexOrder = 1; indexOrder <longitudLista; - indexOrder++) {
         //For animado.
-        for (indexChange = 0; indexChange < (longitudLista - indexOrder); indexChange++) {   
+        for (indexchange = 0; indexChange < (longitudLista - indexOrder); indexChange++) {   
            // Intercambiamos los valores si el anterio es mayor al siguiente.
              if (lista[IndexChange] > lista[IndexChange + 1]) {
-                auxChange = lista[IndexChange];
-                lista[indexChange] > lista[IndexChange + 1];
+                auxChange = lista[indexChange];
+                lista[indexChange] > lista[indexChange + 1];
                 lista[indexChange + 1] = auxChange;
             }
         }
